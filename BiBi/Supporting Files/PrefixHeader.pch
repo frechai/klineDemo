@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  BiBi
+//
+//  Created by 吴艳明 on 2018/4/3.
+//  Copyright © 2018年 jinzhi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//全局宏
+#import "UtilsMacros.h"
+#import "URLMacros.h"
+#import "FontAndColorMacros.h"
+#import "ThirdMacros.h"
+#import "CommonMacros.h"
+
+//第三方
+#import <YYKit.h>
+#import <MBProgressHUD.h>
+#import <Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+//工具类
+#import "StockChartConstant.h"
+#import "StockChartGlobalVariable.h"
+
+//分类
+#import "UIView+Frame.h"
+#import "UIColor+ChartColor.h"
+
+//业务类
+#import "RootViewController.h"
+
+
+#endif /* PrefixHeader_pch */
